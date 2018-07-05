@@ -1,0 +1,10 @@
+{
+  "name": "beat-slayer",
+  "version": "0.0.0-development",
+  "description": "WebVR game in which you slice blocks to a beat. Inspired by Beat Saber.",
+  "main": "index.js",
+  "repository": "git@github.com:WebXRLab/beat-slayer.git",
+  "author": "Patrick Coffey <patrickcoffey48@gmail.com>",
+  "license": "GPLv3",
+  "private": false
+}
