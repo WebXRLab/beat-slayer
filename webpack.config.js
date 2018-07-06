@@ -26,6 +26,10 @@ rules.push({
   exclude: /node_modules/,
   use: 'file-loader'
 });
+rules.push({
+  test: /\.css$/,
+  use: ['style-loader', 'css-loader']
+});
 
 module.exports = {
   plugins,

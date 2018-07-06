@@ -22,6 +22,7 @@
     "@semantic-release/github": "^4.2.18",
     "@semantic-release/npm": "^3.3.4",
     "babel-loader": "^8.0.0-beta",
+    "css-loader": "^0.28.11",
     "eslint": "^5.0.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-config-prettier": "^2.9.0",
@@ -32,10 +33,12 @@
     "lint-staged": "^7.2.0",
     "prettier": "^1.13.7",
     "semantic-release": "^15.6.3",
+    "style-loader": "^0.21.0",
     "webpack": "^4.15.0",
     "webpack-serve": "^1.0.4"
   },
   "dependencies": {
-    "@babel/core": "^7.0.0-beta.51"
+    "@babel/core": "^7.0.0-beta.51",
+    "aframe": "^0.8.2"
   }
 }
