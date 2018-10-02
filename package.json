@@ -16,6 +16,7 @@
     "precommit": "lint-staged -c lint-staged.config.js ; yarn lint"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.0.0-beta.51",
     "@commitlint/cli": "^7.0.0",
     "@commitlint/config-angular": "^7.0.1",
@@ -39,6 +40,10 @@
   },
   "dependencies": {
     "@babel/core": "^7.0.0-beta.51",
-    "aframe": "^0.8.2"
+    "@babel/runtime": "^7.1.2",
+    "aframe": "^0.8.2",
+    "aframe-state-component": "^5.0.0-beta6",
+    "jszip": "^3.1.5",
+    "ramda": "^0.25.0"
   }
 }

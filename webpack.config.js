@@ -32,6 +32,7 @@ rules.push({
 });
 
 module.exports = {
+  mode: 'development',
   plugins,
   module: {
     rules
